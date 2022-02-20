@@ -28,11 +28,13 @@
         -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
         font-weight: bold;
+        margin: 1px auto 1px auto;
     }  
       
     .h2 {  
         color: rgb(0, 26, 255);  
         font-family: Comic Sans MS, Comic Sans, arial;
+        margin: 1px auto 1px auto;
     }  
 
     .h3 {  
@@ -40,11 +42,13 @@
         font-family: Comic Sans MS, Comic Sans, arial;
         size: 40;
         font-weight: bold;
+        margin: 1px auto 1px auto;
     }  
       
     .p {  
         background-color: rgb(1, 255, 1);  
-        width: 600px; 
+        width: 670px; 
+        margin: 1px auto 1px auto;
     }  
       
     .body {  
@@ -54,10 +58,10 @@
     }  
       
     .wrapper {  
-        width: 880px;  
+        width: 800px;  
         height: 950px;  
         overflow: hidden;  
-        margin: 30px auto 30px auto;  
+        margin: 1px auto 1px auto;  
         position: relative;  
     }  
       
