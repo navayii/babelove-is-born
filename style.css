@@ -1,0 +1,198 @@
+
+
+    @charset "utf-8";  
+      
+    /* CSS Document */  
+
+    audio {
+        filter: sepia(100%) saturate(20000%) grayscale(0%) contrast(60%) invert(0%) hue-rotate(180deg);
+        border-radius: 5px;
+        width: 80px;
+        height: 25px;
+    }
+
+    p {
+        white-space: pre;
+      }
+
+    .gif {
+        padding:0px;
+        margin: 0px;
+        /* display: block; */
+
+    }
+      
+    .h1 {  
+        color: rgb(255, 251, 0);  
+        background: -webkit-linear-gradient(45deg, rgb(255, 245, 107), rgb(255, 164, 235), rgb(93, 136, 255));
+        -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+        font-weight: bold;
+    }  
+      
+    .h2 {  
+        color: rgb(0, 26, 255);  
+        font-family: Comic Sans MS, Comic Sans, arial;
+    }  
+
+    .h3 {  
+        color: rgb(0, 238, 255);  
+        font-family: Comic Sans MS, Comic Sans, arial;
+        size: 40;
+        font-weight: bold;
+    }  
+      
+    .p {  
+        background-color: rgb(1, 255, 1);  
+        width: 600px; 
+    }  
+      
+    .body {  
+        background-image: url(sparkles.gif);  
+        background-color: rgb(225, 0, 255);
+
+    }  
+      
+    .wrapper {  
+        width: 880px;  
+        height: 950px;  
+        overflow: hidden;  
+        margin: 30px auto 30px auto;  
+        position: relative;  
+    }  
+      
+    .header {  
+        width: 880px;  
+        height: 130px;  
+    }  
+      
+    .header-logo {  
+        width: 183px;  
+        height: 120px;  
+        background-image: url(sma-solar-technology-logo.png);  
+        background-image: no-repeat;  
+        float: left;  
+    }  
+      
+    .header-text {  
+        width: 100px;  
+        height: 120px;  
+        margin: 0 5px;  
+        float: left;  
+    }  
+      
+    .header-mini-logo {  
+        width: 84px;  
+        height: 16px;  
+        float: right;  
+        margin: 5px;  
+    }  
+      
+    .navbar {  
+        width: 880px;  
+        height: 40px;  
+        background-image: url(menu_bg.jpg);  
+    }  
+      
+    .navbar ul {  
+        width: auto;  
+        float: left;  
+        display: block;  
+        list-style: none;  
+        padding: 2px 0 0 130px;  
+        margin: 0px;  
+        text-align: center;  
+    }  
+      
+    .navbar ul li {  
+        display: inline;  
+        padding: 0px;  
+        margin: 0px;  
+        height: 37px;  
+    }  
+      
+    .navbar ul li a {  
+        display: block;  
+        padding: 0px;  
+        padding: 0 17px 0 17px;  
+        float: left;  
+        text-decoration: none;  
+        text-align: center;  
+        color: #fff;  
+        font-size: 13px;  
+        line-height: 34px;  
+    }  
+      
+    .navbar ul li a:hover {  
+        color: #0C9;  
+    }  
+      
+    .mainbody {  
+        width: 870px;  
+        height: 750px;  
+        margin: 15px 2px 0px 2px;  
+        border-radius: 10px;  
+        background-color: #fff;  
+    }  
+      
+    .mainbody-right {  
+        width: 150px;  
+        height: 300px;  
+        border-radius: 10px;  
+        margin: 10px 10px 0px 10px;  
+        float: right;  
+    }  
+      
+    .mainbody-right a {  
+        color: #996;  
+        text-decoration: none;  
+    }  
+      
+    .mainbody-right a:hover {  
+        color: #0C9;  
+        text-decoration: underline;  
+    }  
+      
+    .mainbody-center {  
+        width: 670px;  
+        height: auto;  
+        border-radius: 10px;  
+        margin: 10px 10px 0px 10px;  
+        float: left;  
+    }  
+      
+    .footer {  
+        width: 880px;  
+        height: 40px;  
+        background-image: url(menu_bg.jpg);  
+        margin: 10px auto 20px auto;  
+    }  
+      
+    .footer p {  
+        color: #fff;  
+        margin: 2px;  
+        padding: 3px;  
+    }  
+      
+    .footer a {  
+        color: #fff;  
+        margin: 2px;  
+        padding: 3px;  
+        text-decoration: none;  
+    }  
+      
+    .footer a:hover {  
+        color: #0C9;  
+        text-decoration: underline;  
+    }  
+      
+    .footer-right {  
+        width: 80px;  
+        height: 40px;  
+        float: right;  
+    }  
+      
+    .footer-right a {  
+        color: #fff;  
+    } 
+
