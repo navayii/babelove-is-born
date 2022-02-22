@@ -23,22 +23,23 @@
     }
       
     .h1 {  
-        color: rgb(255, 251, 0);  
-        background: -webkit-linear-gradient(45deg, rgb(255, 245, 107), rgb(255, 164, 235), rgb(239, 255, 93));
+        color: rgb(255, 255, 255);  
+        background: -webkit-linear-gradient(45deg, rgb(25, 0, 255), rgb(255, 255, 255), rgb(196, 93, 255));
         -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
         font-weight: bold;
         margin: 1px auto 1px auto;
+        font-size: 45px;
     }  
       
     .h2 {  
-        color: rgb(255, 166, 0);  
+        color: rgb(255, 29, 29);  
         font-family: Comic Sans MS, Comic Sans, arial;
         margin: 1px auto 1px auto;
     }  
 
     .h3 {  
-        color: rgb(208, 255, 0);  
+        color: rgb(255, 0, 106);  
         font-family: Comic Sans MS, Comic Sans, arial;
         size: 40;
         font-weight: bold;
@@ -46,14 +47,15 @@
     }  
       
     .p {  
-        background-color: rgb(1, 255, 200);  
+        background-color: rgb(255, 255, 255);  
         width: 670px; 
         margin: 1px auto 1px auto;
     }  
       
     .body {  
-        background-image: url(sparkles2.gif);  
-        background-color: rgb(0, 15, 100);
+        /* background-image: url(sparkles2.gif);   */
+        background-image: repeating-conic-gradient(rgb(158, 14, 172) 0deg 10deg, rgb(0, 255, 213) 10deg 20deg, rgb(229, 255, 0) 20deg 30deg);
+        /* background-color: rgb(0, 15, 100); */
 
     }  
       
