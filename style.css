@@ -23,13 +23,15 @@
     }
       
     .h1 {  
-        color: rgb(255, 255, 255);  
-        background: -webkit-linear-gradient(45deg, rgb(25, 0, 255), rgb(255, 255, 255), rgb(196, 93, 255));
+        color: rgb(217, 255, 0);  
+        -webkit-text-stroke: 2px black; /* width and color */
+        /* background: -webkit-linear-gradient(45deg, rgb(25, 0, 255), rgb(255, 255, 255), rgb(196, 93, 255));
         -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
+  font-family: Monaco;
         font-weight: bold;
         margin: 1px auto 1px auto;
-        font-size: 45px;
+        font-size: 60px;
     }  
       
     .h2 {  
@@ -39,7 +41,7 @@
     }  
 
     .h3 {  
-        color: rgb(255, 0, 106);  
+        color: rgb(0, 0, 0);  
         font-family: Comic Sans MS, Comic Sans, arial;
         size: 40;
         font-weight: bold;
@@ -47,14 +49,15 @@
     }  
       
     .p {  
-        background-color: rgb(255, 255, 255);  
+        color: rgb(0, 0, 0);
+        background-color: rgb(200, 255, 0);  
         width: 670px; 
         margin: 1px auto 1px auto;
     }  
       
     .body {  
-        /* background-image: url(sparkles2.gif);   */
-        background-image: repeating-conic-gradient(rgb(158, 14, 172) 0deg 10deg, rgb(0, 255, 213) 10deg 20deg, rgb(229, 255, 0) 20deg 30deg);
+        background-image: url(zigzag.png);  
+        /* background-image: repeating-conic-gradient(rgb(158, 14, 172) 0deg 10deg, rgb(0, 255, 213) 10deg 20deg, rgb(229, 255, 0) 20deg 30deg); */
         /* background-color: rgb(0, 15, 100); */
 
     }  
